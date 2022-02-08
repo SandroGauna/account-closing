@@ -1,0 +1,118 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_cutoff_accrual_picking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: account_cutoff_accrual_picking
+#: code:addons/account_cutoff_accrual_picking/models/account_cutoff.py:0
+#, python-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#. module: account_cutoff_accrual_picking
+#: model:ir.model,name:account_cutoff_accrual_picking.model_account_cutoff
+msgid "Account Cut-off"
+msgstr "Conta de corte"
+
+#. module: account_cutoff_accrual_picking
+#: model:ir.model,name:account_cutoff_accrual_picking.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: account_cutoff_accrual_picking
+#: model:ir.model,name:account_cutoff_accrual_picking.model_res_config_settings
+msgid "Config Settings"
+msgstr "Definições de Configuração"
+
+#. module: account_cutoff_accrual_picking
+#: model:ir.model.fields,field_description:account_cutoff_accrual_picking.field_account_cutoff__display_name
+#: model:ir.model.fields,field_description:account_cutoff_accrual_picking.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_cutoff_accrual_picking.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Mostrar  Nome"
+
+#. module: account_cutoff_accrual_picking
+#: model:ir.model.fields,field_description:account_cutoff_accrual_picking.field_account_cutoff__id
+#: model:ir.model.fields,field_description:account_cutoff_accrual_picking.field_res_company__id
+#: model:ir.model.fields,field_description:account_cutoff_accrual_picking.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_cutoff_accrual_picking
+#: model:ir.model.fields,field_description:account_cutoff_accrual_picking.field_account_cutoff____last_update
+#: model:ir.model.fields,field_description:account_cutoff_accrual_picking.field_res_company____last_update
+#: model:ir.model.fields,field_description:account_cutoff_accrual_picking.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação Feita em"
+
+#. module: account_cutoff_accrual_picking
+#: code:addons/account_cutoff_accrual_picking/models/account_cutoff.py:0
+#, fuzzy, python-format
+msgid ""
+"Missing expense account on product '%s' or on its related product category "
+"'%s'."
+msgstr ""
+"A falta de despesas conta no produto '%s' ou em sua categoria de produto "
+"relacionado '%s'."
+
+#. module: account_cutoff_accrual_picking
+#: code:addons/account_cutoff_accrual_picking/models/account_cutoff.py:0
+#, fuzzy, python-format
+msgid ""
+"Missing income account on product '%s' or on its related product category "
+"'%s'."
+msgstr ""
+"A renda em falta conta no produto '%s' ou na categoria de produtos "
+"relacionados '%s'."
+
+#. module: account_cutoff_accrual_picking
+#: model:ir.model.fields,field_description:account_cutoff_accrual_picking.field_account_cutoff__picking_interval_days
+#: model:ir.model.fields,field_description:account_cutoff_accrual_picking.field_res_company__default_cutoff_accrual_picking_interval_days
+#: model:ir.model.fields,field_description:account_cutoff_accrual_picking.field_res_config_settings__dft_cutoff_accrual_picking_interval_days
+#, fuzzy
+msgid "Picking Analysis Interval"
+msgstr "Intervalo de análise de escolha"
+
+#. module: account_cutoff_accrual_picking
+#: model:ir.model.constraint,message:account_cutoff_accrual_picking.constraint_account_cutoff_picking_interval_days_positive
+#: model:ir.model.constraint,message:account_cutoff_accrual_picking.constraint_res_company_cutoff_picking_interval_days_positive
+#, fuzzy
+msgid ""
+"The value of the field 'Picking Analysis Interval' must be strictly positive."
+msgstr ""
+"O valor do campo 'Intervalo de Análise de Colheita' deve ser estritamente "
+"positivo."
+
+#. module: account_cutoff_accrual_picking
+#: model:ir.model.fields,help:account_cutoff_accrual_picking.field_account_cutoff__picking_interval_days
+#: model:ir.model.fields,help:account_cutoff_accrual_picking.field_res_company__default_cutoff_accrual_picking_interval_days
+#: model:ir.model.fields,help:account_cutoff_accrual_picking.field_res_config_settings__dft_cutoff_accrual_picking_interval_days
+#, fuzzy
+msgid ""
+"To generate the accruals based on pickings, Odoo will analyse all the "
+"pickings between the cutoff date and N days before. N is the Picking "
+"Analysis Interval."
+msgstr ""
+"Para gerar os acréscimos com base nas escolhas, Odoo analisará todas as "
+"escolhas entre a data de corte e N dias antes. N é o intervalo de análise de "
+"escolha."
+
+#. module: account_cutoff_accrual_picking
+#: model_terms:ir.ui.view,arch_db:account_cutoff_accrual_picking.account_cutoff_form
+#: model_terms:ir.ui.view,arch_db:account_cutoff_accrual_picking.res_config_settings_view_form
+msgid "days"
+msgstr "dias"
